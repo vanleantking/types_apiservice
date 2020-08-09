@@ -1,0 +1,38 @@
+https://www.youtube.com/watch?v=F_oOtaxb0L8
+https://www.youtube.com/watch?v=ulfU5vY6I78
+https://docs.nestjs.com/first-steps
+https://docs.nestjs.com/microservices/basics#request-response
+https://auth0.com/blog/modern-full-stack-development-with-nestjs-react-typescript-and-mongodb-part-1/
+https://auth0.com/blog/full-stack-typescript-apps-part-1-developing-backend-apis-with-nestjs/
+https://www.techiediaries.com/nestjs-tutorial-rest-api-crud/
+https://medium.com/@kaushiksamanta23/nest-js-tutorial-series-part-1-introduction-setup-c87ba810ea9e
+https://codingthesmartway.com/nestjs-for-absolute-beginners/
+https://morioh.com/p/74ffc8a798bb
+
+
+https://www.typescriptlang.org/docs/handbook/basic-types.html#void
+https://morioh.com/p/4d3beaf86c54
+
+
+command line
+create new folder ./src/blog (to new route blog controller)
+create new folders inside blog to construct: [blog/dto, blog/interfaces, blog/schemas]
+    => schemas: contain schema mongoose, control the datatypes of data that will be stored in the database
+    => dto (data transfer object): define how data will be sent over the network and control how data will be posted from the application
+    => interfaces: type checking and define the types of data that should be passed into the application to the database
+    - create module:
+        nest generate module blog
+    - create service:
+        nest generate service blog
+    - create controller:
+        nest generate controller blog
+
+
+        https://docs.nestjs.com/techniques/authentication#authentication
+        https://www.codemag.com/Article/2001081/Nest.js-Step-by-Step-Part-3-Users-and-Authentication
+        https://medium.com/@kaushiksamanta23/nest-js-tutorial-series-part-2-controllers-4e88c0ecd32d
+        https://mongoosejs.com/docs/guide.html
+        https://dev.to/rebellionpay/building-authentication-for-microservices-using-nestjs-1fne
+        https://github.com/WonderPanda/nestjs-microservice-architecture
+        https://itnext.io/nestjs-microservice-with-typeorm-mariadb-and-integration-e2e-testing-379338e99580
+
